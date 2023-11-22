@@ -24,9 +24,11 @@ nav {
     list-style-type: none;
 
 }
-article{
-    margin:0 auto
+
+article {
+ 
 }
+
 .nav-bar,
 .nav-link {
     display: inline;
@@ -49,23 +51,10 @@ h3 {
 
 }
 
-p1 {
-    color: white;
-}
-
-main {
-    text-align: center;
-}
-
 ul {
     color: white;
     display: inline;
 }
-
-image {
-    width: 300px;
-}
-
 .text {
     position: absolute;
     top: 50%;
@@ -89,38 +78,51 @@ image {
     margin: 20px;
 }
 
-.flexbox-container {
+.flex-container {
     display: flex;
-    flex-direction:row;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: flex-start;
 }
-.box2{
-    border-bottom:black solid 2px;
-    width: 80px
-    text-align: right;
-  }
 
-  .box3{
-    border-bottom:black solid 2px;
-    width: 80px
-    text-align: right;
-  }
-  .box4{
-    border-bottom:black solid 2px;
-    width: 80px
-    text-align: right;
-  }
-  .box5{
-    border-bottom:black solid 2px;
-    width: 80px
-    text-align: right;
-  }
-section h4{
-    background-color: gray;
-    text-align: center;
-    margin-top: px;
+.image-column {
+    display: flex;
+    flex-direction: column;
 }
-.button{
+.text-column{
+    border-bottom: black solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.button-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex {
+    flex: 100%;
+    text-align: left;
+    background-color: gray;
+}
+.button {
     background-color: yellow;
+}
+.flex2{
+    display:flex;
+    column-gap: 100px;
+    text-align: center;
+}
+.sample-image{
+    aspect-ratio: 1/1;
+    max-width: 200px;
+}
+.container{
+    margin-left:10%;
+    width: 80%;
+    background-color: ;
+}
+.more{
+    display: flex;
+    flex-direction: column;
 }

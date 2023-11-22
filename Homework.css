@@ -1,0 +1,66 @@
+h1 {
+    color: white;
+}
+text{
+    font: Roboto;
+}
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    position: absolute;
+    text-align: center;
+}
+
+article {
+    background-color: white;
+}
+
+nav {
+    list-style-type: none;
+
+}
+
+.nav-bar,
+.nav-link {
+    display: inline;
+}
+
+a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+}
+
+p1 {
+    color: white;
+}
+main{
+    text-align: center;
+}
+ul{
+    color: white;
+    display: inline;
+}
+image{
+    width: 300px;
+}
+.text {
+    position: absolute;
+    top: 50%; 
+    left: 30%; 
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
